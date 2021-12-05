@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<script src="http://aframe.io/releases/1.0.4/afame.min.js"></script>
+<script src="http://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+<head>
+    <link rel="Samurai" href="styles/styles.css">
+    <Link rel="Samurai" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+
+    <button class="button"info</button>
+
+    <a-scene vr-mode-ui="enabled: false" embedded arjs>
+
+       <a-marker type="pattern" url="patterns/pattern-marker.patt">
+           <a-entity
+            position="0 0 0"
+            scale="4 4 4"
+            obj-model="obj:url(
+            animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
+            > </a-entity>
+        </a-marker>
+
+        <a-entity camera></a-entity>
+
+    </a-scene>
+
+</body>
+</html>
