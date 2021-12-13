@@ -1,0 +1,9 @@
+# Rhino
+newmtl model
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Tf 0 0 0
+d 1
+Ns 0
+map_Kd model.jpg
