@@ -1,0 +1,41 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl holo
+Ka 0.000000 0.000000 0.000000
+Kd 0.470588 0.694118 0.364706
+Ks 0.330000 0.330000 0.330000
+d 0.300000
+map_Kd prova armatura/holo.jpg
+
+newmtl Steel_Brushed_Stainless
+Ka 0.000000 0.000000 0.000000
+Kd 0.717647 0.733333 0.745098
+Ks 0.330000 0.330000 0.330000
+map_Kd prova armatura/Steel_Brushed_Stainless.jpg
+
+newmtl Metal_Silver
+Ka 0.000000 0.000000 0.000000
+Kd 0.933333 0.831373 0.596078
+Ks 0.330000 0.330000 0.330000
+map_Kd prova armatura/Metal_Silver.jpg
+
+newmtl Stone_Brushed_Khaki
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.772549 0.521569
+Ks 0.330000 0.330000 0.330000
+map_Kd prova armatura/Stone_Brushed_Khaki.jpg
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.000000 0.000000 0.000000
+Kd 0.858824 0.835294 0.592157
+Ks 0.330000 0.330000 0.330000
+map_Kd prova armatura/Metal_Aluminum_Anodized.jpg
+
+newmtl _Metal_Aluminum_Anodized_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd prova armatura/_Metal_Aluminum_Anodized_1.jpg
+
