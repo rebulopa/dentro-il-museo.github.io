@@ -13,12 +13,14 @@
         <a-nft
             type='nft' url='https://github.com/AR-js-org/AR.js/blob/aaad9847f67a4738b00724c38d9f501d78e0a8af/aframe/examples/image-tracking/nft/trex/trex-image/trex'
             smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
-            <a-entity
-                gltf-model='https://github.com/AR-js-org/AR.js/blob/aaad9847f67a4738b00724c38d9f501d78e0a8af/aframe/examples/image-tracking/nft/trex/scene.gltf'
-                scale="5 5 5"
-                position="150 300 -100"
-                >
-            </a-entity>
+		
+             <a-entity
+            position="0 0 0"
+            scale="4 4 4"
+            obj-model="obj: url(/media/dama.obj);mtl: url(/media/dama.mtl);"
+            animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
+            > </a-entity>
+		
         </a-nft>
 		<a-entity camera></a-entity>
     </a-scene>
