@@ -5,17 +5,17 @@
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 <head>
     <link rel="shortcut icon" href="media/favicon.ico" />
-    <link rel="stylesheet" href="style/GR_16.css">
+    <link rel="stylesheet" href="GR_16/style/GR_16.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 <body>
     <button class="button">Info</button>
     <a-scene vr-mode-ui="enabled: false" embedded arjs>
-        <a-marker type="pattern" url="patterns/test16.patt">
+        <a-marker type="pattern" url="GR_16/patterns/test16.patt">
            <a-entity
            position="0 0 0"
-           scale="4 4 4"
-           obj-model="obj: url(/media/test16.obj);"
+           scale="1 1 1"
+           obj-model="obj: url(/GR_16/media/test16.obj);"
            animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
            > </a-entity>
         </a-marker>
