@@ -1,0 +1,45 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Corrogated_Shiny
+Ka 0.000000 0.000000 0.000000
+Kd 0.729412 0.729412 0.729412
+Ks 0.330000 0.330000 0.330000
+map_Kd Arma_1/Metal_Corrogated_Shiny.jpg
+
+newmtl _Metal_Corrogated_Shiny_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.698039 0.698039 0.698039
+Ks 0.330000 0.330000 0.330000
+map_Kd Arma_1/_Metal_Corrogated_Shiny_2.jpg
+
+newmtl Metal_Seamed
+Ka 0.000000 0.000000 0.000000
+Kd 0.462745 0.466667 0.450980
+Ks 0.330000 0.330000 0.330000
+map_Kd Arma_1/Metal_Seamed.jpg
+
+newmtl Metal_Grate
+Ka 0.000000 0.000000 0.000000
+Kd 0.058824 0.054902 0.054902
+Ks 0.330000 0.330000 0.330000
+map_Kd Arma_1/Metal_Grate.jpg
+
+newmtl Metal_Grate_Crossing
+Ka 0.000000 0.000000 0.000000
+Kd 0.427451 0.356863 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd Arma_1/Metal_Grate_Crossing.png
+
+newmtl _Metal_Corrogated_Shiny_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.330000 0.330000 0.330000
+map_Kd Arma_1/_Metal_Corrogated_Shiny_1.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
