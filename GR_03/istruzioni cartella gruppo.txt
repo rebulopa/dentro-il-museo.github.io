@@ -1,4 +1,0 @@
-materiale per ogni gruppo:
-media (cartella nella quale potete mettere i 3D con le texture)
-patterns (cartella dedicata alla raccolta dei QRcode)
-styles (che raccoglie i .css per la definizione del layout)
