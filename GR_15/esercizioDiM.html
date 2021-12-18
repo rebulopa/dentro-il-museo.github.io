@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<!-- we import arjs version without NFT but with marker + location based support -->
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+<head>
+  <style type="text/css">
+  		#Wrapper {
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: auto;
+
+  		}
+  		#Container {
+      background-color: #FFFFFF;
+      display: block;
+      float: left;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      border-collapse: collapse;
+
+  	}
+
+  	#prev {
+      background-image: url(freccia%20dx.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: block;
+      float: left;
+      width: 100px;
+      height: 500px;
+      position: relative;
+      z-index: 99;
+      right: 810px;
+  		top:180px;
+  		}
+  		#next {
+      background-image: url(freccia%20SX.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: block;
+      float: right;
+      width: 100px;
+      height: 720px;
+      position: relative;
+      z-index: 99;
+  			top:60px;
+  		}
+      #slider {
+      display: block;
+  	float:left;
+      width: 100%;
+      height: 100%;
+  	overflow: hidden;
+  		position: fixed;
+  }
+  #Container {
+  background-color:;
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-collapse: collapse;
+  }
+
+
+  body {   margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+  		}
+
+
+  #logo.logo {
+  background-image: url("logo.png");
+  background-color:transparent;
+  position: absolute;
+  left: 86px;
+  top: 33px;
+  width: 132px;
+  height: 80px;
+  z-index: 6;
+}
+
+
+#cornica.cornica {
+  background-image: url("cornica.png");
+  background-color:transparent;
+  position: absolute;
+  left: 0px;
+  top:  0px;
+  width: 2067px;
+  height: 169px;
+  z-index: 3;
+}
+
+
+
+
+#ARMERIA_REALE.ARMERIA_REALE {
+  background-image: url("ARMERIA REALE.png");
+  position: absolute;
+  left: 1556px;
+  top: 55px;
+  width: 181px;
+  height: 36px;
+  z-index: 5;
+}
+
+
+#INQUADRA_IL_RETRO_DELLA_CARTA.INQUADRA_IL_RETRO_DELLA_CARTA {
+  background-image: url("INQUADRA IL RETRO DELLA CARTA.png");
+  position: absolute;
+  left: 803px;
+  top: 150px;
+  width: 196px;
+  height: 18px;
+  z-index: 7;
+}
+
+
+
+#bottone.button {
+  background-image: url("button.png");
+  position: absolute;
+  left: 1599px;
+  top: 919px;
+  width: 138px;
+  height: 62px;
+  z-index: 7;
+}
+
+
+#bottone.ITA {
+  background-image: url("ITA.png");
+  position: absolute;
+  left: 52px;
+  top: 919px;
+  width: 68px;
+  height: 62px;
+  z-index: 3;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+  <a-scene vr-mode-ui="enabled: false" embedded arjs>
+
+      <a-marker type="pattern" url="patterns/pattern-marker.patt">
+          <a-entity
+          position="0 0 0"
+          scale="0.08 0.08 0.08"
+          obj-model="obj: url(/media/armaturagiappo.obj);mtl: url(/media/dama.mtl);"
+          animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
+          > </a-entity>
+      </a-marker>
+
+      <a-entity camera></a-entity>
+
+  </a-scene>
+
+
+  <div id="Wrapper">
+
+  <div id="Container">
+	<div class="logo" id="logo">
+		<img src="logo.png"/> </div>
+
+		<div class="ARMERIA_REALE" id="ARMERIA_REALE">
+	    <img src="ARMERIA_REALE.png" alt=""/> </div>
+
+		<div class="cornica" id="cornica">
+	    <img src="cornica.png"  alt=""/> </div>
+
+	  <div class="button" id="bottone">
+	    <img src="button.png"  alt=""/> </div>
+
+		<div class="ITA" id="bottone">
+	    <img src="ITA.png"  alt=""/> </div>
+
+	  <div class="INQUADRA_IL_RETRO_DELLA_CARTA" id="INQUADRA_IL_RETRO_DELLA_CARTA">
+			<img src="INQUADRA_IL_RETRO_DELLA_CARTA.png" width="196" height="18" alt=""/></a> </div>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
