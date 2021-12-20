@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
@@ -15,11 +16,11 @@
 
     <a-scene vr-mode-ui="enabled: false" embedded arjs>
 
-        <a-marker type="pattern" url="patterns/pattern-LogoMostra_DIM_Tavola disegno 1_Tavola disegno 1.patt">
+        <a-marker type="pattern" url="patterns/pattern-marker.patt">
             <a-entity
             position="0 0 0"
             scale="4 4 4"
-            obj-model="obj: url(/media/Helmet.obj);mtl: url(/media/Helmet.mtl);"
+            obj-model="obj: url(/media/dama.obj);mtl: url(/media/dama.mtl);"
             animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
             > </a-entity>
         </a-marker>
