@@ -2,8 +2,10 @@
 __*Esperienze di AR con AR.js*__
 
 ### IL TEMPLATE
-
-
+```
+print("Hello World!")
+exit
+```
 ### COME CREARE LA PROPRIA DIRECTORY
 
 ### COME MODIFICARE IL TEMPLATE
