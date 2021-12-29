@@ -2,7 +2,7 @@
 __*Esperienze di AR con AR.js*__
 
 ### IL TEMPLATE
-Il Template fa riferimento al file che si trova nella DIRECTORY PRINCIPALE del corso e che a sua volta richiede la presenza di tre directory secondarie così denominate <br>
+Il Template fa riferimento al file __esercizioDiM.html__ che si trova nella *CARTELLA PRINCIPALE* del corso e che a sua volta richiede la presenza di tre *CARTELLE SECONDARIE* così denominate <br>
 __styles__ contenente i file di formattazione degli stili della pagina .html<br>
 __patterns__ contiene i file per i markers siano essi target o immagini<br>
 __media__ contiene i file per l'esperienza AR, quindi per i 3D (.obj, .mtl etc.) o i video (.mp4)<br>
@@ -14,7 +14,7 @@ All'interno di *script* viene richiamata la libreria di riferimento di AR.js den
 <!-- we import arjs version without NFT but with marker + location based support -->
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 ```
-Nella sezione *head* troviamo il riferimento al foglio di stile *styles.css* che si trova nella cartella __styles__ della directory principale. Il file .css stabilire lo stile del documento per ogni singolo elemento della pagina, quindi font, margini etc..
+Nella sezione *head* troviamo il riferimento al foglio di stile *styles.css* che si trova nella cartella __styles__ della cartella principale. Il file .css stabilisce lo stile del documento per ogni singolo elemento della pagina, quindi font, margini etc..
 In questo caso il font per lo stile del documento viene richiamato tra quelli disponibili in GoogleFonts attraverso una APIs specifica per lo stile *"Poppins"*
 ```
 <head>
@@ -22,7 +22,8 @@ In questo caso il font per lo stile del documento viene richiamato tra quelli di
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 ```
-
+Nella sezione *a-marker* troviamo il codice che permette di associare il marker all'esperienza 3D. In questo caso poichè il file .html si trova nella cartella principale (dentro-il-museo.github.io) il percorso url della pagina sarà il seguente: https://dentro-il-museo.github.io/esercizioDiM.html
+per quanto riguarda le classi richiamate "pattern" (riga 4) e obj-model (riga 8) il codice richiama dei file che si trovano nelle cartelle secondarie __patterns__ e __media__ per inserire il percorso corretto si andrà quindi a inserire il percorso url utilizzando uno __/__ che precede il __nome della cartella secondaria__ e successivamente uno __/__ che precede il __nome del file__ compreso della sua estensione in questo modo _/patterns-media/nome file_
 ```
 <body>
     <button class="button">Info</button>
@@ -40,8 +41,8 @@ In questo caso il font per lo stile del documento viene richiamato tra quelli di
 </body>
 </html>
 ```
-### COME CREARE LA PROPRIA DIRECTORY
-
+### COME INDIRIZZARE IL PROGETTO .HTML ALLA PROPRIA DIRECTORY DI GRUPPO
+All'interno della directory principale sono state create 17 cartelle secondarie recanti il nome del gruppo e all'interno delle cartelle denominate GR_xx (con xx= numero del gruppo) sono state create altrettante sottocartelle __styles__ __patterns__ __media__ per ricreare l'esempio. In questo caso quindi all'interno del template per richiamare i file corretti andrà inserito nel campo url anche il percorso della cartella secondaria che fa riferimento al gruppo GR_xx e delle sottocartelle create per contenere i file di progetto. Vedi esempio:
 ```
         <a-marker type="pattern" url="/GR_xx/patterns/pattern-marker.patt">
             <a-entity
@@ -52,13 +53,10 @@ In questo caso il font per lo stile del documento viene richiamato tra quelli di
             > </a-entity>
         </a-marker>
 ```
-
-### COME MODIFICARE IL TEMPLATE
-
-### INSERIRE FILE VIDEO
-
-
 ### LISTA PAGINE PER ESPERIENZE 3D
+Per semplificare il test delle vostre esperienze abbiamo elencato le pagine web per l'esperienza di ogni singolo gruppo.<br>
+Tenere presente che ovviamente il file nella cartella gruppo dovrà avere l'estensione .html<br>
+<br>
 https://dentro-il-museo.github.io/GR_01/GR_01.html <br>
 https://dentro-il-museo.github.io/GR_02/GR_02.html <br>
 https://dentro-il-museo.github.io/GR_03/GR_03.html <br>
