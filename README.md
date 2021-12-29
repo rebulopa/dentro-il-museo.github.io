@@ -54,8 +54,7 @@ All'interno della directory principale sono state create 17 cartelle secondarie 
         </a-marker>
 ```
 ### LISTA PAGINE PER ESPERIENZE 3D
-Per semplificare il test delle vostre esperienze abbiamo elencato le pagine web per l'esperienza di ogni singolo gruppo.<br>
-Tenere presente che ovviamente il file nella cartella gruppo dovrà avere l'estensione .html<br>
+Per semplificare il test delle vostre esperienze abbiamo elencato le pagine web per l'esperienza di ogni singolo gruppo. Bisogna tenere presente che ovviamente il file nella cartella gruppo dovrà avere l'estensione .html che si attribuisce semplicemente rinominando il file.<br>
 <br>
 https://dentro-il-museo.github.io/GR_01/GR_01.html <br>
 https://dentro-il-museo.github.io/GR_02/GR_02.html <br>
