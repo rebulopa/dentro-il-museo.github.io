@@ -14,7 +14,7 @@ map_Kd C:\\Users\\franc\\Downloads\\8408972092146-materials_metals_plates_gold-e
 
 newmtl Material.015
 Ns 225.000000
-Ka 0.340909 0.340909 0.340909
+Ka 0.472727 0.472727 0.472727
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -24,7 +24,7 @@ illum 3
 map_Kd C:\\Users\\franc\\Downloads\\8408972092146-materials_metals_plates_gold-embossing-metal-plate-texture-seamless-10690\\118_gold embossing metal plate texture-seamless.jpg
 
 newmtl Material.020
-Ns 225.000000
+Ns 69.192136
 Ka 0.704545 0.704545 0.704545
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
