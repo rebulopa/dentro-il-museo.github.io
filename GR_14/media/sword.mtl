@@ -2,8 +2,8 @@
 # Material Count: 5
 
 newmtl Material
-Ns 60.415285
-Ka 0.027273 0.027273 0.027273
+Ns 5.473986
+Ka 0.846170 0.846170 0.846170
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -25,9 +25,9 @@ map_Kd 00_fodero.png
 
 newmtl Material.020
 Ns 69.192136
-Ka 0.704545 0.704545 0.704545
+Ka 0.582355 0.582355 0.582355
 Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
+Ks 0.131818 0.131818 0.131818
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
@@ -36,17 +36,17 @@ map_Kd C:\\Users\\franc\\Downloads\\MetalStainlessSteelBrushedElongated005\\Meta
 
 newmtl Material.021
 Ns 41.076460
-Ka 1.000000 1.000000 1.000000
+Ka 0.700787 0.700787 0.700787
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
 map_Kd C:\\Users\\franc\\Downloads\\8408972092146-materials_metals_plates_gold-embossing-metal-plate-texture-seamless-10690\\118_gold embossing metal plate texture-seamless.jpg
 
 newmtl Material.023
-Ns 52.233475
+Ns 26.023139
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
