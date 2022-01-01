@@ -13,15 +13,15 @@ illum 3
 map_Kd C:\\Users\\franc\\Downloads\\8408972092146-materials_metals_plates_gold-embossing-metal-plate-texture-seamless-10690\\118_gold embossing metal plate texture-seamless.jpg
 
 newmtl Material.015
-Ns 225.000000
-Ka 0.472727 0.472727 0.472727
+Ns 1.573881
+Ka 0.298182 0.298182 0.298182
 Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
+Ks 0.438182 0.438182 0.438182
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd D:\\FRANCESCO\\Scuola\\Università\\POLITECNICO\\2021-2022\\I SEMESTRE\\SEMINARIO MUSEO\\PRESENTAZIONE\\00_fodero.png
+map_Kd 00_fodero.png
 
 newmtl Material.020
 Ns 69.192136
