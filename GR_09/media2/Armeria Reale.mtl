@@ -1,0 +1,230 @@
+# Rhino
+newmtl diffuse_0
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+newmtl thumb2-dark-brown-wood-texture-cherry-wood-texture-wooden-dark-background-natural-textures
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Sapele brown_100_DP.jpg
+map_D Legno.jpg
+newmtl Con doghe riflettente
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+map_Kd CARPETMAD dark_1000_DF.jpg
+newmtl Legno
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Legno.jpg
+newmtl Horse_Materi
+Ka 0.1725 0.0431 0.0196
+Kd 0.1725 0.0431 0.0196
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+newmtl Metallo
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.4510 0.4471 0.4471
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Metallo (1)
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Vetro
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.0000
+Ns 255.0000
+newmtl Basato su fenomeni fisici (1)
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Basato su fenomeni fisici (2)
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.8706 0.8706 0.8706
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Basato su fenomeni fisici (3)
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Basato su fenomeni fisici (8)
+Ka 0.0000 0.0000 0.0000
+Kd 0.2824 0.1059 0.8431
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.0000
+Ns 255.0000
+newmtl Basato su fenomeni fisici (7)
+Ka 0.0000 0.0000 0.0000
+Kd 0.6471 0.2314 0.6392
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.0000
+Ns 255.0000
+newmtl golden_texture_by_japanstoc
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd golden_texture_by_japanstoc.jpg
+newmtl Legno (2)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Legno.jpg
+newmtl Basato su fenomeni fisici (6)
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.0000
+Ns 255.0000
+newmtl Cuscino
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd 32_giallo_parma.jpg
+newmtl Granito chiaro (3)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Granite light_300_DB.jpg
+map_Bump Granite light_300_DB.jpg
+newmtl Granito chiaro
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Granite light_300_DB.jpg
+map_Bump Granite light_300_DB.jpg
+newmtl Basato su fenomeni fisici (4)
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 1.0000 0.0902
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.0000
+Ns 255.0000
+newmtl Basato su fenomeni fisici
+Ka 0.0000 0.0000 0.0000
+Kd 0.8706 0.8706 0.8706
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+newmtl Granito chiaro (2)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Granite light_300_DB.jpg
+map_Bump Granite light_300_DB.jpg
+newmtl Granito chiaro (1)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Granite light_300_DB.jpg
+map_Bump Granite light_300_DB.jpg
+newmtl Basato su fenomeni fisici (5)
+Ka 0.0000 0.0000 0.0000
+Kd 0.5490 0.5490 0.5490
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+newmtl Affresco 4
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Affresco 4.jpg
+newmtl wallpaper-style-baroque-seamless-background-260nw-1661105689
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd wallpaper-style-baroque-seamless-background-260nw-1661105689.jpg
+newmtl thumb2-dark-brown-wood-texture-cherry-wood-texture-wooden-dark-background-natural-textures (1)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Sapele brown_100_DP.jpg
+map_D Legno.jpg
+newmtl Vernice (25)
+Ka 0.0000 0.0000 0.0000
+Kd 0.2549 0.1059 0.1059
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Vernice (23)
+Ka 0.0000 0.0000 0.0000
+Kd 0.4706 0.1608 0.1608
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+newmtl Vernice (24)
+Ka 0.0000 0.0000 0.0000
+Kd 0.1333 0.1216 0.1216
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
