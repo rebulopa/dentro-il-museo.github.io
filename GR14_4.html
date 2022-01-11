@@ -13,20 +13,20 @@
 
     <button class="button">Info</button>
 
-    <a-scene embedded arjs='sourceType: webcam;'>
+    <a-scene vr-mode-ui="enabled: false" embedded arjs>
 
-    <a-marker type="pattern" url="/patterns/pattern-marker.patt">
-      <!-- define your gltf asset -->
-      <a-entity
-      gltf-model-next="src: url(/GR_14/media/sword.gltf);"
-      >
-      </a-entity>
+        <a-marker type="pattern" url="/patterns/pattern-spada.patt">
+            <a-entity
+            position="0 0 2"
+            scale="0.5 0.5 0.5"
+            gltf-model-next="src: url(/GR_14/media/sword.gltf);"
+            animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
+            > </a-entity>
+        </a-marker>
 
-        <a-text value="Spada San Maurizio, Vienna"></a-text>
+        <a-entity camera></a-entity>
 
-    </a-marker>
+    </a-scene>
 
-    <a-entity camera></a-entity>
-  </a-scene>
 </body>
 </html>
