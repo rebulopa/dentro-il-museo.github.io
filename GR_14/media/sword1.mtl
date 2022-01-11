@@ -1,4 +1,4 @@
-# Blender MTL File: 'sword.blend'
+# Blender MTL File: 'sword1.blend'
 # Material Count: 5
 
 newmtl Material
@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd Oro.png
+map_Kd D:\\FRANCESCO\\Scuola\\Università\\POLITECNICO\\2021-2022\\I SEMESTRE\\SEMINARIO MUSEO\\ESERCIZIO AR\\esercizioDIM\\media\\media\\Oro.png
 
 newmtl Material.015
 Ns 1.573881
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd 00_fodero.png
+map_Kd D:\\FRANCESCO\\Scuola\\Università\\POLITECNICO\\2021-2022\\I SEMESTRE\\SEMINARIO MUSEO\\ESERCIZIO AR\\esercizioDIM\\media\\media\\00_fodero.png
 
 newmtl Material.020
 Ns 69.192136
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd MetalStainlessSteelBrushedElongated005_COL_4K_METALNESS.png
+map_Kd D:\\FRANCESCO\\Scuola\\Università\\POLITECNICO\\2021-2022\\I SEMESTRE\\SEMINARIO MUSEO\\ESERCIZIO AR\\esercizioDIM\\media\\media\\MetalStainlessSteelBrushedElongated005_COL_4K_METALNESS.png
 
 newmtl Material.021
 Ns 41.076460
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd Oro.png
+map_Kd D:\\FRANCESCO\\Scuola\\Università\\POLITECNICO\\2021-2022\\I SEMESTRE\\SEMINARIO MUSEO\\ESERCIZIO AR\\esercizioDIM\\media\\media\\Oro.png
 
 newmtl Material.023
 Ns 26.023139
