@@ -11,16 +11,16 @@
 
 <body>
 
-    <button class="button">Spada San Maurizio Vienna</button>
+    <button class="button">Info</button>
 
     <a-scene vr-mode-ui="enabled: false" embedded arjs>
 
-        <a-marker type="pattern" url="/patterns/pattern-spada.patt">
+        <a-marker type="pattern" url="/patterns/pattern-marker.patt">
             <a-entity
             position="0 0 2"
             scale="0.5 0.5 0.5"
-            obj-model="obj: url(/GR_14/media/sword.obj); mtl: url(GR_14/media/sword.mtl);"
-            animation="property: rotation; dur: 6000; to: 0 360 0; loop: true; easing: linear;"
+            obj-model="obj: url(/GR_14/media/sword.obj);mtl: url(/GR_14/media/sword.mtl);"
+            animation="property: rotation; dur: 8000; to: 0 360 0; loop: true; easing: linear;"
             > </a-entity>
         </a-marker>
 
