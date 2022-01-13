@@ -1,23 +1,33 @@
 # Rhino
-newmtl Matte Brass
+newmtl Custom (1)
 Ka 0.0000 0.0000 0.0000
-Kd 0.0000 0.0000 0.0000
-Ks 0.1922 0.1843 0.1216
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
 Tf 0.0000 0.0000 0.0000
 d 1.0000
-Ns 51.0000
-newmtl Matte Titanium
+Ns 255.0000
+map_Kd 00_fodero.png
+newmtl Custom
 Ka 0.0000 0.0000 0.0000
-Kd 0.0000 0.0000 0.0000
-Ks 0.1020 0.1020 0.1020
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
 Tf 0.0000 0.0000 0.0000
 d 1.0000
-Ns 51.0000
-newmtl Leather dark brown
+Ns 255.0000
+map_Kd metallo spotted.jpg
+newmtl Oro manico
+Ka 0.0000 0.0000 0.0000
+Kd 0.8000 0.8000 0.8000
+Ks 0.8000 0.8000 0.8000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+map_Kd Oro.png
+newmtl Manico
 Ka 0.0000 0.0000 0.0000
 Kd 1.0000 1.0000 1.0000
 Ks 1.0000 1.0000 1.0000
 Tf 0.0000 0.0000 0.0000
 d 1.0000
-Ns 0.0000
-map_Kd Leather dark brown_200_D.jpg
+Ns 255.0000
+map_Kd manico.png
