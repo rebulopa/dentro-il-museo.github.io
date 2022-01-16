@@ -5,7 +5,7 @@ body {
 
 .button {
   font-family: 'Courier New', monospace;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   position:fixed;
   width:80px;
@@ -33,7 +33,7 @@ body {
 
 .button_video {
   font-family: 'Courier New', monospace;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   position:fixed;
   width:80px;
