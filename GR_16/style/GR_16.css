@@ -30,3 +30,23 @@ body {
 .button:active {
     background-color: #bd8f0f;
 }
+
+.button_video {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  position:fixed;
+  width:80px;
+  height:40px;
+  bottom:100px;
+  right:120px;
+  border: 2px solid black;
+  color: black;
+  background-color: #b34a24;
+  text-align: center;
+  text-decoration: none;
+  border-radius:50px;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.3s;
+}
