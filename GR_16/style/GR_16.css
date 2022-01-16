@@ -12,7 +12,7 @@ body {
   height:40px;
   bottom:60px;
   right:20px;
-  border: 2px solid black;
+  border: none;
   color: black;
   background-color: #FFBD0B;
   text-align: center;
@@ -40,7 +40,7 @@ body {
   height:40px;
   bottom:60px;
   right:120px;
-  border: 2px solid black;
+  border: none;
   color: black;
   background-color: #b34a24;
   text-align: center;
